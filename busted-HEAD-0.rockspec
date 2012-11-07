@@ -10,7 +10,8 @@ description = {
     Ships with a large amount of useful asserts,
     plus the ability to write your own. Output
     in pretty or plain terminal format, JSON,
-    or TAP for CI integration.
+    or TAP for CI integration. Great for TDD
+    and unit, integration, and functional tests.
   ]],
   homepage = "http://olivinelabs.com/busted/",
   license = "MIT <http://opensource.org/licenses/MIT>"
@@ -32,6 +33,7 @@ build = {
     ["busted.output.plain_terminal"] = "src/output/plain_terminal.lua",
     ["busted.output.TAP"] = "src/output/TAP.lua",
     ["busted.output.json"] = "src/output/json.lua",
+    ["busted.output.junit"] = "src/output/junit.lua",
     ["busted.init"] = "src/init.lua",
     ["busted.languages.en"] = "src/languages/en.lua",
     ["busted.languages.ar"] = "src/languages/ar.lua",
